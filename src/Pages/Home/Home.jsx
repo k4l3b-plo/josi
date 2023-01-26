@@ -61,6 +61,7 @@ const Home = () => {
             </div>
           ))}
       </div>
+      <Link to="/about" className=" my-1 py-1 px-2 hover:bg-indigo-500 rounded hover:text-white">About</Link>
     </div>
   )
 }

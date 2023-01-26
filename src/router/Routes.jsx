@@ -9,6 +9,7 @@ const Signup = lazy(() => import('@/Pages/Auth/Signup'));
 const Account = lazy(() => import('@/Pages/Account'));
 const AddBooks = lazy(() => import('@/Pages/AddBooks'));
 const EditBook = lazy(() => import('@/Pages/EditBook'));
+const About = lazy(() => import('@/Pages/About'));
 
 
 
@@ -23,6 +24,7 @@ const SystemRoutes = () => {
                     <Route path='/add-book' element={<AddBooks />} />
                     <Route path='/edit-book/:id' element={<EditBook />} />
                 </Route>
+                <Route path='/about' element={<About />} />
                 <Route path='/login' element={<Login />} />
                 <Route path='/signup' element={<Signup />} />
             </Routes>
